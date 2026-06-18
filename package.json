@@ -1,0 +1,18 @@
+{
+  "name": "ph-gcash",
+  "version": "1.0.0",
+  "description": "GCash number validation and formatting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": ["philippines", "gcash", "mobile-payment"],
+  "author": "kon2raya",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.0.0"
+  }
+}
