@@ -8,11 +8,20 @@
     "build": "tsc",
     "test": "vitest"
   },
-  "keywords": ["philippines", "gcash", "mobile-payment"],
+  "keywords": [
+    "philippines",
+    "gcash",
+    "mobile-payment"
+  ],
   "author": "kon2raya",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.9.0",
     "vitest": "^3.0.0"
-  }
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ]
 }
