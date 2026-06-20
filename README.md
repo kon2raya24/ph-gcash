@@ -1,3 +1,7 @@
+
+[![npm version](https://img.shields.io/npm/v/ph-gcash.svg)](https://www.npmjs.com/package/ph-gcash)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/kon2raya24/ph-gcash/actions/workflows/ci.yml/badge.svg)](https://github.com/kon2raya24/ph-gcash/actions/workflows/ci.yml)
 # ph-gcash
 
 GCash number validation and formatting for Philippine mobile payments.
