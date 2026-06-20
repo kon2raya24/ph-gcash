@@ -17,6 +17,7 @@ export function formatGCash(number: string): string {
  * @param number
  */
 export function validateGCash(number: string): boolean {
+  if (number === null || number === undefined) throw new Error("Invalid input");
   const cleaned = number.replace(/[^0-9]/g, "");
   return /^(\+63|63|0)?9\d{9}$/.test(cleaned);
 }
@@ -26,5 +27,6 @@ export function validateGCash(number: string): boolean {
  * @param number
  */
 export function isGCashCompatible(number: string): boolean {
+  if (number === null || number === undefined) throw new Error("Invalid input");
   return validateGCash(number);
 }
